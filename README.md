@@ -43,11 +43,11 @@ Run `Subco_Cereb_process_in_batch.sh` to:
 
 ### 4. Normalization Data Generation
 - Run `HCs_data_gen_4_norm.m` to generate the data for normalization.  
-- ⚠️ Note: If there are multiple ROIs, please revise the code accordingly.  
+- ⚠️ Note: If there are multiple ROIs or subject groups, please revise the code accordingly.  
 
 ### 5. Group Normalization
 - Run `Target_group_norm.m` to normalize and collect data from a specific group.  
-- ⚠️ Note: If there are multiple ROIs, please revise the code accordingly.  
+- ⚠️ Note: If there are multiple ROIs or subject groups, please revise the code accordingly.  
 
 ### 6. Two-Group Statistical Analysis
 - Run `Two_grps_stats_ana.m` to perform a **two-sample statistical analysis** between two targets.  
